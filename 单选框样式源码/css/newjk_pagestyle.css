@@ -1,0 +1,441 @@
+.trapper{
+	max-width: 414px;
+	height: 100%;
+	margin: 0 auto;
+}
+/*增值业务页*/
+.index_title{
+	width: 100%;
+	height: auto;
+}
+.index_title img{
+	width: 100%;
+	vertical-align: bottom;
+}
+.index_content{
+	width: 100%;
+	height: auto;
+	background-color: #fff;
+	overflow: hidden;
+	border-bottom: 2px solid #ECECED;
+}
+.index_content_intro{
+	width: 96%;
+	margin: 10px auto;
+	overflow: hidden;
+	padding: 10px auto;
+}
+.intro_img{
+	width: 20%;
+	float: left;
+}
+.intro_img img{
+	width: 100%;
+	vertical-align: bottom;
+}
+.intro_p{
+	width: 77%;
+	float: left;
+	margin-left: 3%;
+	display: block;
+	overflow: hidden;
+}
+.p_title{
+	width: 100%;
+	height: auto;
+}
+.p_title p{
+	line-height: 1.2em;
+}
+.p_footer{
+	width: 100%;
+	height: auto;
+}
+/*流量加油包*/
+.ll_num{
+	width: 96%;
+    margin: 10px auto;
+    background-color: #fff;
+    padding: 0 2%;
+    border-top: 1px solid #ECECED;
+    border-bottom: 1px solid #ECECED;
+    position: relative;
+    height: 50px;
+    overflow: hidden;
+}
+.ll_num .input2{
+	background: url(../images/jk_icon_x.png) no-repeat;
+	background-size: 100% 100%;
+	position: absolute;
+	right: 5%;
+	top: 18px;
+	z-index: 12;
+	border: none;
+	display: block;
+	height: 15px;
+}
+.ll_num .input1{
+	display: block;
+	width: 100%;
+	border: none;
+	font-size: 1.3em;
+	color: #2D2D2D;
+	height: 20px;
+	margin: 10px auto;
+}
+.ll_mid{
+	width: 100%;
+	height: auto;
+	background: #fff;
+	overflow: hidden;
+	border-top: 1px solid #ECECED;
+    border-bottom: 1px solid #ECECED;
+}
+.dowebok{
+	/* padding:0 0 0 2%; */
+	padding: 0 0 0 1%;
+	list-style-type: none;
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+}
+.ll_mid .dowebok li{
+	float:left;
+	/* width:28%; */
+	width: 40%;
+	height:auto;
+	/* margin: 3% 2%; */
+	margin: 3% 4%;
+}
+input.labelauty + label { font: 1em "Microsoft Yahei";}
+.shiyong{
+	width: 96%;
+	height: auto;
+	clear: both;
+	overflow: hidden;
+	margin: 20px 2%;
+	padding-left: 5%;
+}
+.shiyong li{
+	float: left;
+	list-style: disc;
+	margin-right: 20px;
+	padding: 0;
+	list-style:inside;
+	text-indent: -10px;
+	font-size: 0.8em;
+	color: #999999;
+}
+.zfms{
+	width: 96%;
+	height: auto;
+	margin: 10px auto;
+	font-size: 1em;
+	color: #999999;
+}
+.zfms p{
+	margin: 8px auto;
+}
+.btn1{
+	display: block;
+	width: 96%;
+	margin: 150px auto 50px auto;
+	background-color: #48A4FD;
+	text-align: center;
+	border-radius: 5px;
+    color: #fff;
+    line-height: 2.2em;
+    font-size: 1.3em;
+}
+.blgz{
+	width: 100%;
+	height: auto;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	z-index: 999;
+	background-color: #F0EFF5;
+}
+.blgz a{
+	font-size: 1em;
+	color: #1B0D6F;
+	display: block;
+	width: 100%;
+	text-align: center;
+	line-height: 40px;
+	background-color: #8BC5FD;
+	height: 40px;
+}
+.blgz a img{
+	width: 5%;
+	vertical-align: text-bottom;
+}
+.blgz_intro{
+	width: 100%;
+	margin: 10px auto;
+	background-color: #F0EFF5;
+	display: none;
+}
+.blgz_intro p{
+	width: 96%;
+	margin: 10px auto;
+}
+/*资费说明*/
+.zfsm{
+	width: 98%;
+	margin: 10px auto;
+}
+.zfsm p{
+	width: 100%;
+	color: #707377;
+	font-size: 1em;
+	margin-bottom: 25px;
+}
+/*确认办理*/
+.sure_intro{
+	width: 100%;
+	margin: 0 auto 20px auto;
+	background-color: #fff;
+    overflow: hidden;
+    border-bottom: 2px solid #ECECED;
+}
+.sure_intro p{
+	text-align: left;
+	margin: 10px auto;
+	color: #707377;
+}
+.sure_btn{
+	width: 96%;
+	margin: 30px auto;
+	overflow: hidden;
+}
+.sure_btn a{
+	display: block;
+	float: left;
+	text-align: center;
+	border-radius: 5px;
+	font-size: 1.3em;
+	line-height: 2em;
+	color: #fff;
+	width: 44%;
+	margin: 0 3%;
+}
+/*成功办理页*/
+.jg_title{
+	width: 100%;
+	height: auto;
+	margin: 0 auto 30px auto;
+	background-color: #fff;
+	overflow: hidden;
+	border-bottom: 2px solid #ECECED;
+}
+.jg_title img{
+	display: block;
+	width: 30%;
+	margin: 30px auto 15px auto;
+}
+.jg_title p{
+	width: 96%;
+	margin: 10px auto 10px auto;
+	text-align: center;
+	color: #999999;
+}
+/*确认办理页*/
+.sure_title{
+	width: 96%;
+	margin: 10px auto;
+	font-size: 1em;
+	color: #979799;
+}
+.sure_intro1{
+	width: 100%;
+	margin: 0 auto 10px auto;
+	background-color: #fff;
+	border-top: 1px solid #E5E4E9;
+	border-bottom: 1px solid #E5E4E9;
+}
+.sure_intro1 p{
+	width: 96%;
+	margin: 10px auto;
+	color: #505050;
+}
+.sure_intro1 a{
+	display: block;
+	width: 96%;
+	text-align: right;
+	margin-bottom: 10px;
+	color: #A1A1A1;
+	font-size: 0.8em;
+}
+.sure_form{
+	width: 100%;
+	margin: 10px auto;
+	background-color: #fff;
+	padding: 10px 0;
+	border-top: 1px solid #E5E4E9;
+	border-bottom: 1px solid #E5E4E9;
+	overflow: hidden;
+}
+
+/* Basic Grey */
+.basic-grey {
+    margin-left:auto;
+    margin-right:auto;
+    width: 96%;
+    background: #fff;
+    margin: 10px auto;
+    font: 1em Georgia, "Times New Roman", Times, serif;
+    color: #888;
+    text-shadow: 1px 1px 1px #FFF;
+}
+.basic-grey label {
+    display: block;
+}
+.basic-grey label>span {
+    float: left;
+    width: 25%;
+    text-align: left;
+    /*padding-right: 5%;*/
+    margin-top: 10px;
+    color: #000;
+    font-size: 1em;
+}
+.basic-grey div span {
+    float: left;
+    width: 25%;
+    text-align: left;
+    /*padding-right: 5%;*/
+    margin-top: 10px;
+    color: #000;
+    font-size: 1em;
+}
+.basic-grey input, .basic-grey textarea , .basic-grey select{
+    /*border: 1px solid #DADADA;*/
+    border: none;
+    color: #888;
+    height: 30px;
+    margin-bottom: 10px;
+    margin-right: 6px;
+    margin-top: 2px;
+    outline: 0 none;
+    padding: 3px 3px 3px 5px;
+    width: 60%;
+    font-size: 12px;
+    line-height:15px;
+    background-color: #fff;
+}
+.basic-grey textarea{
+    padding: 5px 3px 3px 5px;
+}
+.basic-grey select {
+    border: none;
+    color: #888;
+    height: 30px;
+    margin-bottom: 10px;
+    margin-right: 6px;
+    margin-top: 2px;
+    outline: 0 none;
+    padding: 3px 3px 3px 5px;
+    width: 20%;
+    font-size: 12px;
+    line-height:15px;
+}
+.basic-grey textarea{
+    height:100px;
+}
+.basic-grey .button {
+    background-color: #1D88CF;
+    border: none;
+    height: 30px;
+    line-height: 30px;
+    color: #FFF;
+    border-radius: 3px;
+    width: 15%;
+}
+
+/*家宽查询*/
+.jk_cx_input{
+	display: block;
+	width: 96%;
+	margin: 10px auto 5px;
+	border: none;
+	font-size: 1.3em;
+	color: #A1A1A1;
+	padding: 15px 2%;
+	text-align: center;
+	border-top: 1px solid #CACACA;
+	border-bottom: 1px solid #CACACA;
+}
+.jk_cx_p{
+	width: 96%;
+	margin: 130 auto 0px;
+	font-size: 0.8em;
+	text-align: center;
+	color: #666666;
+}
+.jk_cx_btn{
+	display: block;
+	width: 96%;
+	border-radius: 5px;
+	border: none;
+	color: #fff;
+	text-align: center;
+	font-size: 1.3em;
+	line-height: 2.6em;
+	background-color: #48A4FD;
+	margin: 10px auto;
+}
+
+/*查询成功*/
+.jk_cx_successbtn{
+	font-size: 0.8em;
+	text-align: right;
+	width: 96%;
+	display: block;
+	margin: 0 auto;
+}
+.newjk_yy{
+	position: fixed;
+	bottom: 10px;
+	left: 0;
+	width: 100%;
+	z-index: 9;
+}
+.newjk_yy button{
+	display: block;
+	width: 80%;
+	margin: 0 auto;
+	background-color: #07CF3B;
+	border: none;
+	border-radius: 5px;
+	text-align: center;
+	color: #fff;
+	font-size: 1.2em;
+	line-height: 2em;
+}
+.newjk_yy a{
+	text-align: center;
+	display: block;
+	margin: 5px auto;
+	color: #C5C4CA;
+	font-size: 0.8em;
+}
+.newjk_rule{
+	width: 90%;
+	margin: 50px auto;
+}
+.newjk_rule p{
+	color: #4C4C4E;
+	font-size: 1em;
+	margin: 3px auto;
+	font-weight: bold;
+}
+.lable_bottom{
+	border-bottom: 1px solid #CFCFCF;
+	margin-bottom: 5px;
+	overflow: hidden;
+}
+.wdselect{
+	background: url(../images/newjk_select_down.png) no-repeat right;
+	background-size: 15px 10px;
+}

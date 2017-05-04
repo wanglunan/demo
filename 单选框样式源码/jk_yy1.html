@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+	<meta name="apple-mobile-web-app-capable" content="yes" />
+	<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+	<meta name="format-detection" content="telephone=no" />
+	<title>宽带预约</title>
+	<!--公共css-->
+	<link rel="stylesheet" href="css/newjk_pagestyle.css">
+	<link rel="stylesheet" href="css/newjk_base.css">
+    <link rel="stylesheet" href="css/newjk_jquery-labelauty.css" type="text/css"  />
+
+	<script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
+    <script type="text/javascript" src="js/jquery-labelauty.js"></script>
+    <script type="text/javascript" src="js/newjk_totalpop.js"></script>
+    <script type="text/javascript">
+        $(function(){
+            $(':input').labelauty();
+        });
+        $(function(){
+          $("#btn").bind("click", function () {
+            $.MsgBox.Confirm("温馨提示", "尊敬的13333333333用户，您已经预约过宽带业务，我们将尽快为您受理安装。目前您的预约信息处理人为王师傅（联系电话：13333333333）", function () { 
+              alert(123); 
+            });
+          });
+        });
+    </script>
+    <style>
+        .dowebok { list-style-type: none;}
+        /*li { display: inline-block;}*/
+
+        input.labelauty + label { font: 1em "Microsoft Yahei";}
+
+    </style>
+</head>
+<body class="bgf0">
+    <div class="trapper bgf0 pr" style="overflow:hidden;">
+        <div class="ll_num">
+            <input type="tel" class="input1" value="133 3333 3333">
+            <input type="button" class="input2">
+        </div>
+        <div class="ll_mid">
+           <ul class="dowebok">
+               <li>
+                   <input type="radio" checked='checked' name="radio" value='' data-labelauty="<span style='font-size:1.3em;line-height:1.5em;'>20M</span><br><span style='font-size:0.8em;text-decoration:line-through;'>原价1000元/年</span><br><span style='font-size:0.8em;padding-left:0;'>780元/年</span>">
+               </li>
+               <li>
+                   <input type="radio" name="radio" value='' data-labelauty="<span style='font-size:1.3em;line-height:1.5em;'>50M</span><br><span style='font-size:0.8em;text-decoration:line-through;'>原价1000元/年</span><br><span style='font-size:0.8em;padding-left:0;'>1080元/年</span>">
+               </li>
+               <!--li>
+                   <input type="radio" name="radio" value='' data-labelauty="<span style='font-size:1.3em;line-height:1.5em;'>100M</span><br><span style='font-size:0.8em;padding-left:0;'>1380元/年</span>">
+               </li-->
+           </ul>
+        </div>
+    </div> 
+    <div class="newjk_yy">
+        <button id="btn">点击办理</button>
+        <a href="">预约规则</a>
+    </div>
+</body>
+</html>

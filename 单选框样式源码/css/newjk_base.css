@@ -1,0 +1,70 @@
+body,ul,ol,li,p,h1,h2,h3,h4,h5,h6,form,fieldset,table,td,img,div{
+	margin:0;
+	padding:0;
+	border:0;
+}
+body{
+	font-family: 'Microsoft YaHei';
+	width: 100%;
+	/*min-height: 568px;*/
+	height: 100%;
+}
+li{
+	list-style: none;
+}
+img{
+	max-width: 100%;
+}
+a{
+	text-decoration: none;
+}
+/*文字排版*/
+.f05{font-size: 0.5em;}
+.f06{font-size: 0.6em;}
+.f08{font-size:0.8em;}
+.f09{font-size:0.9em;}
+.f10{font-size:  1em;}
+.f11{font-size:1.1em;}
+.f12{font-size:1.2em;}
+.f13{font-size:1.3em;}
+.f14{font-size:1.4em;}
+.f15{font-size:1.5em;}
+.f16{font-size:1.6em;}
+.f17{font-size:1.7em;}
+.f18{font-size:1.8em;}
+.f20{font-size:  2em;}
+.f22{font-size:2.2em;}
+.f24{font-size:2.4em;}
+/*字体颜色*/
+.c99{color: #999999;}/*首页灰色字体*/
+.cff{color: #FFB280;}/*首页橘黄字体*/
+.c00{color: #000;}
+.c48{color: #48A4FD;}/*流量加油包蓝色字体*/
+.cffa{color: #FFA15E}/*流量加油包黄色字体*/
+.c70{color: #707377;}
+/*宽度*/
+.w70{width: 70%;}
+.w96{width: 96%;}
+/*高度*/
+.h100{height: 100%;}
+.h50{height: 50%;}
+.h20{height: 20px;}
+/*背景颜色*/
+.bgf0{background-color: #F0EFF5;}
+.bgcf{background-color: #CFE7FF;}
+.bgfd{background-color: #FD4848;}
+.bg48{background-color: #48A4FD;}
+/*行高*/
+.lh15{line-height: 1.5em;}
+.lh20{line-height: 2em;}
+.lh30{line-height: 35px;}
+/*边距*/
+.m5{margin: 5% auto;}
+/*去除iphone样式*/
+ input[type="button"], input[type="submit"], input[type="reset"] ,select{-webkit-appearance: none;}
+/*定位*/
+.pr{position: relative;}
+/*右对齐*/
+.tr{text-align: right;}
+.tl{text-align: left;}
+
