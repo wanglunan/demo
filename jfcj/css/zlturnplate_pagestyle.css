@@ -1,0 +1,161 @@
+.trapper{
+	max-width: 414px;
+	margin: 0 auto;
+	overflow: hidden;
+	height: 100%;
+}
+/*首页*/
+.jfcj_title{
+	width: 100%;
+	margin: 0 auto;
+	position: relative;
+}
+.jfcj_title img{
+	width: 100%;
+	vertical-align: bottom;
+}
+.jfcj_title p{
+	position: absolute;
+	bottom: 5px;
+	width: 100%;
+	text-align: center;
+	left: 0;
+	z-index: 999;
+	color: #A35D0E;
+}
+.jfcj_mid{
+	width: 96%;
+	margin: 10px auto;
+	overflow: hidden;
+}
+.jfcj_mid_price{
+	width: 22%;
+	margin: 5px 1.5%;
+	height: 70px;
+	background-color: #FFCC01;
+	float: left;
+	border-radius: 5px;
+	box-shadow:0 5px 5px #C8AF38; 
+	color: #994E0C;
+}
+.jfcj_mid_price p{
+	margin: 10px auto;
+	text-align: center;
+	width: 96%;
+	
+}
+.jfcj_pointer{
+	width: 47%;
+	margin: 5px 1.5%;
+	float: left;
+	background-color: #F42D30;
+	border-radius: 5px;
+	height: 70px;
+	box-shadow:0 5px 5px #C8AF38; 
+}
+.jfcj_pointer p{
+    line-height: 30px;
+    text-align: center;
+    color: #fff;
+}
+.jfcj_pointer p img{
+	width: 30px;
+	height: 30px;
+	vertical-align: bottom;
+}
+.jfcj_bg{
+	background-color: #9B4D0F;
+}
+.jfcj_btn{
+	width: 96%;
+	margin: 20px auto;
+	overflow: hidden;
+}
+.jfcj_btn a{
+	display: block;
+	float: left;
+	width: 46%;
+	margin: 0 2%;
+	background-color: #F42D30;
+	color: #fff;
+	text-align: center;
+	border-radius: 5px;
+	line-height: 2.5em;
+}
+.jfcj_cjgzcontent{
+	width: 90%;
+	margin: 5% auto;
+	padding: 20px 0 100px;
+	background: url(../images/jfcj_cjgzcontentbg.png) no-repeat;
+	background-size: cover;
+	overflow: hidden;
+}
+.jfcj_cjgztitle{
+	width: 70%;
+	margin: 0 auto 20px;
+}
+.jfcj_cjgztitle img{
+	vertical-align: bottom;
+}
+.jfcj_cjgzintro{
+	width: 90%;
+	margin: 0 auto;
+}
+.jfcj_cjgzintro p{
+	width: 100%;
+	font-size: 1em;
+	color: #C48D79;
+	line-height: 1.5em;
+}
+.jfcj_cjgzbtn{
+	width: 100%;
+	margin: 10px auto;
+}
+.jfcj_cjgzbtn a{
+	display: block;
+	width: 30%;
+	margin: 0 auto;
+	text-align: center;
+	border-radius: 5px;
+	color: #fff;
+	font-size: 1em;
+	line-height: 2.5em;
+	background-color: #F42D30;
+}
+.jfcj_zjjllist{
+	width: 100%;
+	margin: 10px auto;
+	overflow: hidden;
+}
+.jfcj_zjjllist_title{
+	width: 100%;
+	margin: 5px auto;
+	overflow: hidden;
+}
+.jfcj_zjjllist_title p{
+	width: 50%;
+	text-align: center;
+	color: #D87E5D;
+	background-color: #FFE9C0;
+	font-size: 0.9em;
+	line-height: 2em;
+	float: left;
+}
+.jfcj_zjjllist_intro{
+	width: 96%;
+	border-bottom: 1px dashed #D4C4A2;
+	margin: 5px auto;
+	overflow: hidden;
+}
+.jfcj_zjjllist_intro p{
+	width: 50%;
+	text-align: center;
+	float: left;
+	color: #D87E5D;
+	line-height: 2em;
+	font-size: 1em;
+}
+.bg00{
+	background-color: #f42d30;
+	color: #fff;
+}
